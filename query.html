@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<link rel="stylesheet" type="text/css" href="main.css" >
+<title>
+<?php echo $g->emit('title'); ?>
+</title></head>
+<body>
+<div width=100%>
+<h1>Статистика использования ПО сектора АПКР</h1>
+</div>
+<table><tr><td width="200px" valign="top" >
+<?php echo $g->emit('menu'); ?>
+</td><td>
+<div class="query_form">
+<form action="query.php" method="get">
+Пользователь: <select name="tc_user">
+<?php echo $g->emit('users'); ?>
+</select>
+&nbsp;Модуль: <select name="module">
+<?php echo $g->emit('modules'); ?>
+</select>
+&nbsp;<button width='50' type='submit' name='apply' value='apply'>Применить</button>
+<br>Период: <input name="days" type="text" 
+<?php echo $g->emit('days'); ?>
+ size=3 > дней
+</form>
+</div>
+<?php echo $g->emit('content'); ?>
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.tbstat {
+	border-style: double;
+	border-width: 5px;
+	border-color: rgb(200,200,200);
+	width: 600px;
+}
+
+.treven {
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(225,225,225);
+}
+
+.trodd {
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(190,190,190);
+}
+
+.tdstat {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.rep_tbl_head {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #222244;
+	margin-top: 24pt;
+	margin-bottom: 7pt;
+}
+
+body {
+	font-family:Calibri,Arial,Verdana,Sans;
+}
+
+

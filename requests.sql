@@ -1,0 +1,1 @@
+select ELT( month(run_date), 'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь') as month, count(*) from stats group by month(run_date) order by month(run_date) desc;

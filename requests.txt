@@ -1,0 +1,1 @@
+select module, count(*), day(run_date) from stats_copy where month(run_date) = 10 group by day(run_date), module;

@@ -1,0 +1,49 @@
+.tbstat {
+	border-style: double;
+	border-width: 8px;
+	border-color: DimGray;
+	border-collapse: collapse;
+	width: 860px;
+	color: black;
+	background-color: rgb(225,225,225);
+}
+
+.treven {
+	border-style: solid;
+	border-width: 2px;
+	border-color: DimGray;
+	background-color: rgb(225,225,225);
+}
+
+.trodd {
+	border-style: solid;
+	border-width: 2px;
+	border-color: DimGray;
+	background-color: rgb(190,190,190);
+}
+
+th,.tdstat {
+	border-style: solid;
+	border-width: 2px;
+	border-color: DimGray;
+}
+
+.rep_tbl_head {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #f5d585;
+	margin-top: 24pt;
+	margin-bottom: 7pt;
+}
+
+body {
+	font-family:Calibri,Arial,Verdana,Sans;
+	color: #ffdf94;
+	background: url('sauron.png');
+	background-color: rgb(225,225,225);
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
